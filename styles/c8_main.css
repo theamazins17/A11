@@ -185,8 +185,12 @@ footer p {
 }
 
 @media only screen and (max-width: 648px) {
-	header img { float: none; }
-	header { text-align: center; }
+	header img {
+		float: none;
+	}
+	header {
+		text-align: center;
+	}
 	section {
 		float: none;
 		width: 95%;
@@ -212,5 +216,7 @@ footer p {
 }
 
 @media only screen and (max-width: 414px) {
-	body { font-size: 90%; }
+	body {
+		font-size: 90%;
+	}
 }
